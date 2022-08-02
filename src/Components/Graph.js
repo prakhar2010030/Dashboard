@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Graph.css";
 import { Users } from "../Data";
 import { Bar } from "react-chartjs-2";
+// eslint-disable-next-line
 import { chart as chartJS } from "chart.js/auto";
 import TextField from '@mui/material/TextField';
 const Graph = () => {
@@ -9,13 +10,16 @@ const Graph = () => {
   const [index, setIndex] = useState("0");
 
   useEffect(() => {
-   if(search !='')
-   { Users.filter((val, index) => {
+   if(search !=='')
+   {const arr =  Users.filter((val, index) => {
       if (val.Name?.toLowerCase().includes(search?.toLowerCase()))
         {setIndex(index);}
+        return index;
         // else setUserName("User doesnot exist");
-    });}
-    console.log(search,index);
+    });
+  console.log(arr)
+}
+    console.log(search);
   }, [search]);
  
 

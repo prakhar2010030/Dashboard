@@ -3971,7 +3971,7 @@ export const Users = [
      "Tension": 2
    },
     {
-     "Name": "dolly @ rekha w\/o monto shah",
+     "Name": "dolly @ rekha w/o monto shah",
      "Warmth": 2.2,
      "Reasoning": 2,
      "Emotional Stability": 2.9,
@@ -4959,7 +4959,7 @@ export const Users = [
      "Tension": 3.2
    },
     {
-     "Name": "ashok kumar s\/o",
+     "Name": "ashok kumar s/o",
      "Warmth": 2.7,
      "Reasoning": 0.9,
      "Emotional Stability": 1.6,
