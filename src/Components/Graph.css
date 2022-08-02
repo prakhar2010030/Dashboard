@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
+
+  font-size: 1rem;
+}
+.graphContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graphContainer div {
+  width: 700px;
+}
